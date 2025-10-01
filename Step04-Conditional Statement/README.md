@@ -21,4 +21,3 @@ Conditional statements are used to make decisions in Python by running code only
 - An `if` statement inside another `if`.  
 - Useful for checking multiple conditions step by step.  
 
--
