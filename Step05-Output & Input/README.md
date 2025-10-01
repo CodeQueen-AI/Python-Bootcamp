@@ -1,9 +1,4 @@
-Perfect 🌸 Code Queen!
-Tum chah rahi ho ke README **sirf definition + explanation style** ho, **coding aur output examples na ho**.
 
-Yeh raha **Input & Output** ka README usi style mein:
-
-```md
 # Python Input and Output
 
 **Definition:**  
@@ -32,3 +27,4 @@ Input and output statements in Python are used to take input from the user and d
 Agar chahogi, main ab **sab tumhare pehle topics (Hello World, Variables, Data Types, Operators, Conditional Statements, Input/Output)** ek **single unified minimal README** bana dun, **definition-first style** mein, coding aur output ke bina.
 
 Kya main ye kar dun?
+
