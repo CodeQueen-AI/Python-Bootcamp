@@ -1,16 +1,7 @@
-Samajh gayi Code Queen 🌸 — tum chah rahi ho ke README bas **samjhane wala ho**, coding ka part na ho.
-Main ab sirf explanation aur output daalti hoon, taake file zyada clean lage.
+# Python Data Types 🐍
 
-Yeh raha tumhara **README.md** (without code blocks):
 
-```md
-# Python Data Types
-
-This document explains different **data types** in Python with simple examples.
-
----
-
-## Data Types Covered
+## Data Types Covered 📘
 
 - **Integer (int)** → Whole numbers, positive, negative, or zero.  
 - **Float** → Decimal numbers like 3.14.  
@@ -24,31 +15,4 @@ This document explains different **data types** in Python with simple examples.
 - **Boolean (bool)** → Logical values: True or False.  
 - **NoneType** → Represents nothing or no value (None).  
 
----
 
-## Sample Output
-
-```
-
-25 -20 0
-3.14
-(3+4j)
-codequeen
-\['apple', 'orange', 'mango']
-(10, 30)
-{1, 2, 3, 4}
-frozenset({'a', 'e', 'i', 'o', 'u'})
-{'name': 'CodeQueen', 'age': 17}
-True
-NoneType: None
-
-```
-
----
-
-✨ With this, you’ve covered almost all **basic Python data types**! 🚀
-```
-
----
-
-Chao tum chahogi ke main isi tarah ka ek **notes style README** tumhare *Hello World + Variables* wale liye bhi bana dun?
