@@ -1,4 +1,3 @@
-
 # 📦 Import & Export in Python
 
 **Definition:**
@@ -21,7 +20,7 @@ Python me **import/export ka matlab hai ek file ya module ka code dusri file me 
 
 1. **Importing Modules:**
 
-   * Dusri file ya built-in module ka code apni file me **access** karne ke liye `import` use hota hai.
+   * Dusri file ya built-in module ka code apni file me **access** karne ke liye `import` use hota hai
 
 2. **Exporting Functions / Variables:**
 
@@ -31,9 +30,22 @@ Python me **import/export ka matlab hai ek file ya module ka code dusri file me 
 
    * Imported module ke content ko **module_name.function_name** ke through call karte hain.
 
+4. **`__pycache__` Folder:**
+
+   * Jab Python koi file run karta hai, to **compiled bytecode (.pyc files)** ko **`__pycache__` folder** me store karta hai.
+   * **Purpose:**
+
+     * Agle runs me Python ko **faster execution** ke liye code dobara compile nahi karna padta
+     * Execution speed improve hoti hai
+   * Ye folder **automatically generate hota hai** aur aapke source code ko affect nahi karta.
+
+
 
 ✨ **Summary:**
 
 * Import & Export = **Code reuse aur modular programming** ✅
 * Python me `import` se **functions, classes aur variables** ko easily reuse kar sakte ho
 * Large projects ke liye **essential concept** hai
+* **`__pycache__`** = Python ka **bytecode cache system** ⚡, faster execution ke liye
+
+
