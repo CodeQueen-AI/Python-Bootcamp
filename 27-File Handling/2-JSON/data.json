@@ -1,0 +1,10 @@
+{
+    "name": "CodeQueen",
+    "age": 20,
+    "skills": [
+        "Python",
+        "TypeScript",
+        "Web Development"
+    ],
+    "location": "Karachi"
+}
