@@ -17,8 +17,3 @@ print(empty)
 # String Length (len())
 text = "Python"
 print(len(text))  
-
-# Indexing
-text = "Python"
-print(text[2]) 
-print(text[-3]) 
