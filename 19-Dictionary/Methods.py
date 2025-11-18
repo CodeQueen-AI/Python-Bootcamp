@@ -1,36 +1,35 @@
-student = {
-    "name": "Ali",
-    "age": 20,
-    "course": "Python"
+person = {
+    'name' : 'CodeQueen',
+    'age' : 18,
+    'city' : 'Karachi'
 }
+print(person)
 
 # keys()
-print("Keys:", student.keys())
+print(person.keys())
 
 # values()
-print("Values:", student.values())
+print(person.values())
 
 # items()
-print("Items:", student.items())
+print(person.items())
 
 # get(key) 
-print("Name:", student.get("name"))
-print("Grade:", student.get("grade", "Not Available")) 
+print(person.get("name"))
+print(person.get("grade")) 
 
 # update() 
-student.update({"age": 21, "grade": "A"})
-print("Updated Dictionary:", student)
+person.update({"age": 21, "grade": "A"})
+print(person)
 
 # pop(key)
-age = student.pop("age")
-print("Removed Age:", age)
-print("After pop:", student)
+age = person.pop("age")
+print(age)
 
 # popitem() 
-last_item = student.popitem()
-print("Removed Last Item:", last_item)
-print("After popitem:", student)
+last_item = person.popitem()
+print(last_item)
 
 # clear() 
-student.clear()
-print("After clear:", student)
+person.clear()
+print(person)
