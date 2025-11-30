@@ -38,3 +38,27 @@ age_of_patient = pid1234.age
 print('Age of Patient : ' , age_of_patient)
 
 print('Patient Name : ' , pid1234.first_name, pid1234.last_name)
+
+# Changing an Attribute’s Value
+class Patient():
+    def __init__(self , first_name , last_name , age):
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+        
+    def say_if_minor(self):
+        if self.age < 21:
+            print(self.first_name + " " + self.last_name + 'is a minor')
+        else:
+            print(self.first_name + " " + self.last_name + 'is not a minor')
+            
+    def change_last_name(self , new_last_name):
+        self.last_name = new_last_name
+        
+pid3456 = Patient('Taleb' , 'Sue' , 61)
+
+print(pid3456.first_name , pid3456.last_name , pid3456.age)
+
+pid3456.change_last_name('Ortega')
+
+print(pid3456.first_name , pid3456.last_name , pid3456.age)
