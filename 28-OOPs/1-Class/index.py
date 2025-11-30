@@ -1,19 +1,10 @@
-class Student:
-
-    # Constructor (__init__)  
-    def __init__(self, name, age):
-        # Attributes (variables)
-        self.name = name
-        self.age = age
-
-    # Methods
-    def show_info(self):
-        print(f"Name: {self.name}")
-        print(f"Age: {self.age}")
-
-
-# Object banana 
-s1 = Student("CodeQueen", 20)
-
-# Method call
-s1.show_info()
+class Patient():
+    def __init__(self, last_name):
+        self.last_name = last_name
+    
+p1 = Patient('Ifra')
+pid123 = Patient('Fatima')
+pid987 = Patient('Anusha')
+print(p1.last_name)
+print(pid123.last_name)
+print(pid987.last_name)
