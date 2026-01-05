@@ -7,8 +7,6 @@ a = 10
 b = 15
 print(f'The sum of {a} & b is {a + b}')
 
-
-
 # Format() Methods
 name = 'CodeQueen'
 age = 18

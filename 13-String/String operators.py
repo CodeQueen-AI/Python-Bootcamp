@@ -1,29 +1,24 @@
-# ================================
-# Python String Operators Examples
-# ================================
-
-# 1️⃣ Concatenation (+)
+# Concatenation (+)
 first_name = "Code"
 last_name = "Queen"
 full_name = first_name + " " + last_name
-print("Concatenation (+):", full_name)  # Code Queen
+print(full_name)  
 
-# 2️⃣ Repetition (*)
+# Repetition (*)
 repeat_name = "Code " * 3
-print("Repetition (*):", repeat_name)  # Code Code Code 
+print(repeat_name) 
 
-# 3️⃣ Indexing ([])
+# Indexing ([])
 word = "Python"
-print("Indexing ([]):", word[0])  # P
-print("Indexing ([]):", word[-1])  # n
+print(word[0])  
+print(word[-1])
 
-# 4️⃣ Slicing ([:])
-print("Slicing ([0:4]):", word[0:4])  # Pyth
-print("Slicing ([-4:]):", word[-4:])  # thon
+# Slicing ([:])
+print(word[0:4])  
+print(word[-4:])  
 
-# 5️⃣ Membership (in)
-print("Membership (in):", "t" in word)  # True
+# Membership (in)
+print("t" in word)  
 
-# 6️⃣ Membership (not in)
-print("Membership (not in):", "z" not in word)  # True
-
+# Membership (not in)
+print("z" not in word)  
