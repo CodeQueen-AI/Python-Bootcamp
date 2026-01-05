@@ -14,14 +14,6 @@ print("2025", "10", "28", sep="/")
 
 # flush
 import time
-
-# True
 for i in range(5):
     print(i, end=" ", flush=True)
-    time.sleep(1)
-
-# False
-import time
-for i in range(5):
-    print(i, end='' , flush=False)
     time.sleep(1)

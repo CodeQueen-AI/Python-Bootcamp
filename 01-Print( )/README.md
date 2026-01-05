@@ -4,7 +4,6 @@
 * It can show **text, numbers, or results**
 
 
-
 ## ✅ `print()` Parameters
 
 `print()` can do more with **extra options** called **parameters**.
