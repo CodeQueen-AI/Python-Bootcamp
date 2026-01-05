@@ -1,3 +1,4 @@
+# Comparison Operators : Compare two values and return True or False
 x = 5 > 3   # Greater than (True)
 print(x)
 y = 5 < 3   # Less than (false)
