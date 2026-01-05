@@ -1,3 +1,5 @@
+# PEDMAS : Parentheses → Exponents → Division → Multiplication → Addition → Subtraction
+# In Python, it decides the order in which operations are performed
 
 # Simple Addition & Multiplication
 result = 2 + 3 * 4
