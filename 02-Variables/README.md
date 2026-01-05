@@ -1,29 +1,27 @@
 ## **1. What is a Variable?** 📝
 
-Variable ek naam hai jo kisi data/value ko store karta hai taake baad me use kiya ja sake💾
+A variable is a **name that stores data or a value** so we can use it later 
 
 
 
 ## **2. Assigning a Value** ➡️
 
-`=` ka use karke hum variable me value store karte hain🏷️
+We use `=` to **store a value in a variable** 
 
 
 
 ## **3. Changing the Value** 🔄
 
-Variable ki value kabhi bhi nayi value assign karke badal sakte hain✨
+We can **change the value of a variable anytime** by assigning a new value 
 
 
 
 ## **4. Multiple Variables** 🔢
 
-Hum ek saath multiple variables create kar sakte hain aur unme alag-alag values store kar sakte hain📦
-
+We can **create multiple variables at once** and store **different values** in them 
 
 
 
 ## **5. Printing Multiple Values** 🖇️
 
-Multiple variables ko text ke sath print karke output ko readable banaya ja sakta hai📄
-
+We can **print multiple variables together** with text to make the output **clear and readable** 
