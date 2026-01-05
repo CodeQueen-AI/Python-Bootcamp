@@ -1,3 +1,4 @@
+# Identity operators -> Check if two variables refer to the same object
 a = [1, 2, 3]  
 b = a  
 print(a is b)     # True (Same object)
