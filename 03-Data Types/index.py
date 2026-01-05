@@ -1,4 +1,3 @@
-
 # int (integer)
 age = 25       # Positive integer
 temperature = -10  # Negative integer

@@ -1,120 +1,98 @@
-
 ## ✅ What are Data Types?
 
-Python mei **data types** batate hain ke ek variable kis type ka data store kar raha hai. Har data ka apna nature aur behavior hota hai.
+In Python, **data types** tell us **what kind of data a variable holds**.
+Each type has its own **nature and behavior**
 
 
 ## 🔹 int (Integer)
 
-Ye **poore numbers** hote hain.
-
-* Positive numbers
-* Negative numbers
-* Zero
-
-Example: 10, -5, 0
+* These are **whole numbers**.
+* Can be **positive, negative, or zero**.
+* Example: 10, -5, 0
 
 
 
 ## 🔹 float (Decimal Numbers)
 
-Ye **point wale numbers** hotay hain.
-
-Example: 3.14, 7.5
+* These are **numbers with a decimal point**
+* Example: 3.14, 7.5
 
 
 
 ## 🔹 complex
 
-Isme do parts hotay hain:
+* A **complex number** has **two parts**:
 
-Real Part → Normal number (jaise 3, 10, -5)
+  1. Real part → normal number (like 3, 10, -5)
+  2. Imaginary part → ends with `j` (like 4j, 7j)
 
-Imaginary Part → j ke sath hota hai (jaise 4j, 7j)
+* Example: 3 + 4j
 
-Dono ko mila kar complex number banta hai.
+  * 3 → real part
+  * 4j → imaginary part
 
-Example: 3 + 4j
+💡 Imaginary numbers are used in **math, science, signals, waves, and electrical circuits** for accurate calculations.
 
-3 → Real part
-
-4j → Imaginary part
-
-💡 Imaginary part math aur scientific calculations mei zyada use hota hai.
-
-Bilkul! ✨
-
-Imaginary numbers isi liye use hote hain kyunki kuch real-world problems real numbers se solve nahi hotay, jaise signals, waves aur electrical circuits.
-Ye complex systems ki accurate calculations ke liye bohot important hotay hain. ✅
 
 
 ## 🔹 str (String)
 
-Ye **text** ko store karta hai.
-Quotes ke andar likha jata hai.
-
-Example: "Hello", 'Python'
+* Used to **store text**
+* Text is written inside **quotes**
+* Example: "Hello", 'Python'
 
 
 
 ## 🔹 list
 
-Ye **multiple values** store karta hai, aur change bhi ho sakti hain.
-Square brackets [] use hotay hain.
-
-Example: ["apple", "banana"]
+* Stores **multiple values** and can be **changed**
+* Uses **square brackets []**.
+* Example: ["apple", "banana"]
 
 
 
 ## 🔹 tuple
 
-Ye list jaisa hota hai **lekin change nahi hoti**.
-Round brackets () hotay hain.
-
-Example: (10, 20)
-
+* Like a list, but **cannot be changed**
+* Uses **round brackets ()**
+* Example: (10, 20)
 
 
 ## 🔹 set
 
-Ye unique values rakhta hai, **repeat allowed nahi**.
-Curly braces {} use hotay hain.
-
-Example: {1, 2, 3}
+* Stores **unique values only** (no duplicates)
+* Uses **curly braces {}**
+* Example: {1, 2, 3}
 
 
 
 ## 🔹 frozenset
 
-Ye set jaisa hota hai **lekin change nahi hota**.
-
-Example: frozenset({1, 2, 3})
+* Like a set, but **cannot be changed**
+* Example: frozenset({1, 2, 3})
 
 
 
 ## 🔹 dict (Dictionary)
 
-Ye **key-value pairs** mei data store karta hai.
-Curly braces {} use hotay hain.
+* Stores data in **key-value pairs**.
+* Uses **curly braces {}**.
+* Example: {"name": "Ali", "age": 20}
 
-Example: {"name": "Ali", "age": 20}
 
 
 ## 🔹 bool (Boolean)
 
-Sirf **True** ya **False** value hoti hai.
-Decision making mein use hota hai.
-
+* Can only be **True** or **False**.
+* Used in **decision-making**.
 
 
 ## 🔹 NoneType
 
-Jab variable mei **koi value na ho** to None use hota hai.
-
-Example: None
-
+* Represents **no value** in a variable.
+* Example: None
 
 
-✅ In tamam data types ka use program ke nature par depend karta hai ke kis type ki information store karni hai
 
+✅ Use these data types depending on **what kind of information you want to store** in your program.
 
