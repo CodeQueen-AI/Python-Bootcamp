@@ -22,13 +22,8 @@ Hum ek saath multiple variables create kar sakte hain aur unme alag-alag values 
 
 
 
-## **5. Printing Variables** 🖨️
 
-`print()` function se variables ki value screen par dekhi ja sakti hai👀
-
-
-
-## **6. Printing Multiple Values** 🖇️
+## **5. Printing Multiple Values** 🖇️
 
 Multiple variables ko text ke sath print karke output ko readable banaya ja sakta hai📄
 
