@@ -1,5 +1,0 @@
-2025-11-16 18:30:27,637 - DEBUG - This is a debug message – useful for developers.
-2025-11-16 18:30:27,637 - INFO - Program is running smoothly.
-2025-11-16 18:30:27,638 - WARNING - This is a warning – something might be wrong.
-2025-11-16 18:30:27,638 - ERROR - An error occurred!
-2025-11-16 18:30:27,638 - CRITICAL - Critical issue! Immediate attention needed.
