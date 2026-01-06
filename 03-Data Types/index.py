@@ -1,45 +1,48 @@
-# int (integer)
-age = 25       # Positive integer
-temperature = -10  # Negative integer
-count = 0      # Zero as an integer
-print(age , temperature , count)      
-    
-# float (decimal)
+# Data Types Definition:
+# Data types tell Python what kind of value a variable is storing
+
+# int (integer) → whole numbers
+age = 25              # positive integer
+temperature = -10     # negative integer
+count = 0             # zero
+print(age, temperature, count)
+
+# float → decimal numbers
 pi = 3.14
-print(pi)  
+print(pi)
 
-#Complex
-z1 = 3 + 4j  
-print(z1) 
+# complex → numbers with real and imaginary parts
+z1 = 3 + 4j
+print(z1)
 
-# str (string)
+# str (string) → text data
 name = "Code Queen"
-print(name) 
+print(name)
 
-# list
+# list → ordered, changeable collection
 fruits = ["apple", "banana", "mango"]
-print(fruits) 
+print(fruits)
 
-# tuple
+# tuple → ordered, unchangeable collection
 coordinates = (10, 20)
-print(coordinates)  
+print(coordinates)
 
-# set
+# set → unordered, unique values
 unique_numbers = {1, 2, 3, 3}
-print(unique_numbers)  
+print(unique_numbers)
 
-#frozenset
-vowels = frozenset("aeiou")  
-print(vowels)  
+# frozenset → unchangeable set
+vowels = frozenset("aeiou")
+print(vowels)
 
-# dict (dictionary)
+# dict (dictionary) → key-value pairs
 person = {"name": "CodeQueen", "age": 17}
-print(person)  
+print(person)
 
-# bool (boolean)
+# bool (boolean) → True or False
 is_active = True
-print(is_active)  
+print(is_active)
 
-# NoneType
+# NoneType → no value
 value = None
-print("NoneType:", value)  
+print("NoneType:", value)
