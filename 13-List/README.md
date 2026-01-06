@@ -1,6 +1,6 @@
 # 🧾 Lists in Python
 
-Lists in Python are ordered, changeable, and can hold multiple data types. They are defined using square brackets []
+
 
 A **List** Python mein ek aisi data structure hai jisme multiple values ko ek hi variable mein store kiya ja sakta hai. List ke andar numbers, strings, ya mixed values ho sakti hain. ✅
 

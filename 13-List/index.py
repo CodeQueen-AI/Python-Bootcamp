@@ -1,4 +1,5 @@
-# List → ordered, changeable collection of items
+# Lists in Python are ordered, changeable, and can hold multiple data types They are defined using
+# square brackets []
 list1 = ['Apple', 'Banana', 'Cherry']
 print(list1)
 

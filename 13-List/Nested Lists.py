@@ -1,3 +1,4 @@
+# Nested List : A list inside another list
 fruits = ["apple", "banana", ["mango", "orange"], "grape"]
 
 print(fruits[0])        
