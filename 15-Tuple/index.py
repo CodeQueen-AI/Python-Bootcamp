@@ -1,4 +1,5 @@
-# Tuple
+# Tuple : Tuples in Python are ordered, immutable, and can hold multiple data types They are 
+# defined using parentheses ()
 my_tuple = (1, 2, 3, 4)
 print(my_tuple)
 

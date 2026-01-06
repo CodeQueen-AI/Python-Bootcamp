@@ -1,6 +1,6 @@
 # 📝 Tuples in Python
 
-Tuples in Python are ordered, immutable, and can hold multiple data types. They are defined using parentheses ().
+.
 
 # 📌 Python Tuples - README
 
