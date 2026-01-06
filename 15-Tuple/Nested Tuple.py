@@ -1,3 +1,4 @@
+# Nested List : A nested tuple is a tuple inside another tuple
 nested_tuple = (1, 2, (3, 4, 5), 6)
 
 # Accessing Elements
