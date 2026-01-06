@@ -1,3 +1,5 @@
+# Docstring : A string written at the beginning of a function, class or module that explains what 
+# it does
 def add_numbers(a, b):
     """
     Function to add two numbers.
