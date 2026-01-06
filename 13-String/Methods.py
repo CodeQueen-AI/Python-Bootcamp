@@ -1,58 +1,44 @@
-# upper()
+# upper : makes text uppercase
 text = 'CodeQueen'
 print(text.upper())
 
-# strip
+# strip : removes extra spaces
 text = '  CodeQueen  '
 print(text.strip())
 
-# replace
+# replace : changes text
 text = 'I love JS'
 print(text.replace('JS', 'Python'))
 
-# split
+# split : breaks string into list
 text = 'apple,banana,orange'
-fruits = text.split(',')
-print(fruits)
+print(text.split(','))
 
-# Join
-words = ['I' , 'Love' , 'Python']
-sentence = " ".join(words)
-print(sentence)
+# join : joins list into string
+words = ['I', 'Love', 'Python']
+print(" ".join(words))
 
-# find
+# find : finds position of text
 text = "Hello Code Queen"
-print(text.find("Code"))  
+print(text.find("Code"))
 
-# count(substring)
+# count : counts occurrences
 text = "banana"
-print(text.count("a"))  
+print(text.count("a"))
 
-# capitalize
+# capitalize : first letter uppercase
 text = "hello world"
-print(text.capitalize())  
+print(text.capitalize())
 
-# swapcase()
+# swapcase : switches cases
 text = "Hello Code Queen"
-print(text.swapcase())  
+print(text.swapcase())
 
-# #isalpha()
-text = "Hello"
-print(text.isalpha())
+# isalpha : only letters
+print("Hello".isalpha())
 
-text = "Hello123"
-print(text.isalpha())  
+# isdigit :  only numbers
+print("12345".isdigit())
 
-#isdigit()
-text = "12345"
-print(text.isdigit()) 
-
-text = "123abc"
-print(text.isdigit())  
-
-#isalnum()
-text = "Python123"
-print(text.isalnum())  
-
-text = "Python 123"
-print(text.isalnum()) 
+# isalnum : letters and numbers
+print("Python123".isalnum())
