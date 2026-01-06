@@ -1,18 +1,18 @@
-# Print()
+# Print() : its used to show something on the screen
 print('Hello World!')
 print('Welcome to CodeQueen Python Repository!')
 
 # Print Parameters
 
-# end
+# end : symbol between values
 print("Python", end=" ")
 print("is fun")
 
-# sep
+# sep : line ending
 print("Python", "is", "fun", sep="-")
 print("2025", "10", "28", sep="/")
 
-# flush
+# flush : show immediately or delay
 import time
 for i in range(5):
     print(i, end=" ", flush=True)
