@@ -1,0 +1,10 @@
+{
+    "user": {
+        "name": "Sumbal",
+        "age": 22,
+        "education": {
+            "degree": "BSCS",
+            "university": "ABC University"
+        }
+    }
+}
