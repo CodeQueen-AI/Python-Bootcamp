@@ -1,74 +1,70 @@
-#Append()
+# Append() → adds an item at the end
 fruits = ["apple", "banana"]
-fruits.append("grapes")  
-print(fruits)  
+fruits.append("grapes")
+print(fruits)
 
-#Insert()
+# Insert() → adds an item at a specific position
 fruits = ["apple", "banana"]
-fruits.insert(1, "watermelon")  
-print(fruits)  
+fruits.insert(1, "watermelon")
+print(fruits)
 
-#Remove()
+# Remove() → removes a specific item by value
 fruits = ["apple", "banana", "cherry"]
-fruits.remove("banana")  
-print(fruits)  
+fruits.remove("banana")
+print(fruits)
 
-#Pop()
+# Pop() → removes item by index (default last)
 fruits = ["apple", "banana", "cherry"]
-fruits.pop()  
-print(fruits)  
+fruits.pop()    # removes last
+print(fruits)
+fruits.pop(0)   # removes first
+print(fruits)
 
-fruits.pop(0)    
-print(fruits)  
-
-#Sort()
+# Sort() → sorts items ascending
 numbers = [3, 1, 4, 2]
-numbers.sort()  
-print(numbers)  
+numbers.sort()
+print(numbers)
 
-#Reverse()
+# Reverse() → reverses the order
 numbers = [1, 2, 3, 4]
-numbers.reverse()  
-print(numbers)  
+numbers.reverse()
+print(numbers)
 
-#Index()
+# Index() → finds position of an item
 fruits = ["apple", "banana", "cherry"]
-print(fruits.index(" banana"))  
+print(fruits.index("banana"))
 
-#Count()
+# Count() → counts how many times an item appears
 numbers = [1, 2, 3, 2, 2, 4]
-print(numbers.count(2))  
+print(numbers.count(2))
 
-#Extend()
+# Extend() → adds multiple items from another list
 fruits = ["apple", "banana"]
 more_fruits = ["watermelon", "grapes"]
-fruits.extend(more_fruits)  
-print(fruits)  
+fruits.extend(more_fruits)
+print(fruits)
 
-#Clear()
+# Clear() → removes all items
 fruits = ["apple", "banana"]
-fruits.clear()  
-print(fruits)  
+fruits.clear()
+print(fruits)
 
-#Copy()
+# Copy() → makes a new copy of the list
 fruits = ["apple", "banana", "grapes"]
 new_fruits = fruits.copy()
-
-# New list ko modify karna
 new_fruits.append("watermelon")
+print("Original List:", fruits)
+print("Copied List:", new_fruits)
 
-print("Original List:", fruits)  
-print("Copied List:", new_fruits)  
-
-#sort(reverse=True)
+# Sort(reverse=True) → sorts descending
 numbers = [5, 2, 8, 1, 4]
-numbers.sort(reverse=True) 
-print(numbers)  
+numbers.sort(reverse=True)
+print(numbers)
 
-#del()
+# del() → deletes item by index or entire list
 fruits = ["apple", "banana", "cherry"]
-del fruits[1] 
-print(fruits)  
+del fruits[1]
+print(fruits)
 
 numbers = [1, 2, 3, 4]
-del numbers 
+del numbers  # deletes entire list
