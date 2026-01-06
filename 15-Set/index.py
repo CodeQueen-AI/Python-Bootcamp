@@ -1,4 +1,5 @@
-# Set
+# Set : Sets in Python are unordered, mutable (except frozensets), and do not allow duplicate 
+# elements They are defined using curly braces {}
 fruits = {"Apple", "Banana", "Cherry"}
 print(fruits) 
 

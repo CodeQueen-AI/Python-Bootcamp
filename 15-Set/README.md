@@ -1,6 +1,6 @@
 # 🧾 Sets in Python
 
-Sets in Python are unordered, mutable (except frozensets), and do not allow duplicate elements. They are defined using curly braces {}
+
 
 
 A **Set** Python mein ek aisi data structure hai jo unique elements store karti hai. Set me order maintain nahi hota aur duplicate values automatically remove ho jaati hain. ✅
